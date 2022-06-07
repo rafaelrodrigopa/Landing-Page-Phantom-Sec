@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phantom Sec</title>
+    <script src="https://kit.fontawesome.com/4cdaaae612.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/logo.png" alt="">
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#news">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu-mobile">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#news">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+        <div class="menu_btn">
+            <img src="image/btn4.png" alt="">
+        </div>
+    </header>
+
+    <main id="home">
+        <div class="container">
+            <div class="content">
+                <h1>Segurança da Informação</h1>
+                <p>Previna, detecte e solucione possíveis ameaças cibernéticas antes mesmo que elas aconteçam. Conheça nossas soluções de firewall, endpoint security, multifator de autenticação, Wi-Fi seguro, backup e recuperação de dados, monitoramento e consultoria de LGPD.</p>
+                <button>View Tours</button>
+            </div>
+        </div>
+    </main>
+
+    <section id="about">
+        <div class="container">
+            <h2>01</h2>
+            <p>Serviços de consultoria em segurança Phantom Sec</p>
+            <h1>Mantenha suas informações seguras</h1>
+            <div class="call">
+                <div class="left">
+                    Cada negócio exige um conjunto de soluções de segurança da informação adequadas às suas necessidades e compatíveis com seu nível de maturidade.
+                </div>
+                <div class="right">
+                    Nós somos os parceiros certo para identificar os principais processos, mapear os pontos de risco relevantes e traçar um plano de ação para alcançar uma segurança efetiva.
+                </div>
+            </div>
+            <img src="image/bg-2.png" alt="">
+        </div>
+    </section>
+
+    <section id="news">
+        <div class="container">
+            <div class="left">
+                <h2>02</h2>
+                <p>
+                    LGPD Para Negócios</p>
+                <h1>Monitoramento</h1>
+                <span>Identifique e corrija as vulnerabilidades da sua rede antes que elas possam ser exploradas.</span>
+            </div>
+            <div class="right">
+                <h3>Segurança de endpoint</h3>
+                <div class="box">
+                    <div class="data">
+                        <p>►</p>
+                    </div>
+                    <div class="info">
+                        <span>Data Loss Prevention</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <p>►</p>
+                    </div>
+                    <div class="info">
+                        <span>Web Filtering</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="data">
+                        <p>►</p>
+                    </div>
+                    <div class="info">
+                        <span>Anti Malware</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="center">
+                <h2>03</h2>
+                <p>Contato</p>
+                <h1>Entre em contato</h1>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fa-solid fa-phone"></i>
+                    <h3>Telefone</h3>
+                    <button>Visualizar</button>
+                </div>
+                <div class="box">
+                    <img src="image/mountain.png" alt="">
+                    <h3>Instagram</h3>
+                    <button>Visualizar</button>
+                </div>
+                <div class="box">
+                    <img src="image/bike.png" alt="">
+                    <h3>Facebook</h3>
+                    <button>Visualizar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span>Copyright 2022 <a href="#"> PHANTOM SEC </a> Todos os direitos reservados</span>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".menu_btn").click(function(){
+                $(".menu-mobile").slideToggle("slow")
+            })
+        })
+    </script>
+</body>
+</html>
